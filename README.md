@@ -35,12 +35,13 @@ Assigments from class will be here in the pursuit of learning HTML coding
   <h1>Welcome to Black Goose Bistro</h1>
   <p>Click below to explore our full site:</p>
 <p align="center">
-  <a href="https://mataibender.github.io/fid/Web%20presence/index.html" target="_blank">
-    <button style="background-color:#D4AF37;color:white;padding:10px 20px;border:none;border-radius:5px;font-size:16px;cursor:pointer;">
-      View My Web Resume
-    </button>
+  <a href="https://mataibender.github.io/fid/Web%20presence/index.html" target="_blank"
+     style="background-color:#D4AF37;color:white;padding:10px 20px;border:none;border-radius:5px;
+            font-size:16px;cursor:pointer;text-decoration:none;display:inline-block;">
+    View My Web Resume
   </a>
 </p>
+
 
 <button onclick="window.location.href='bistro/Black_Goose_bistro.index.html'">Go to Black Goose index</button>
 <button onclick="window.location.href='bistro/bistro_inline.html'">Go to Bistro Inline Page</button>
