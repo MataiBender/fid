@@ -23,9 +23,17 @@
        
 
         table {
-            width: 100%;
-            border-collapse: collapse;
-            font-family: overcame demo,sans-serif
+            @font-face {
+  font-family: 'Overcame Demo';
+  src: url('fonts/OvercameDemo.ttf') format('truetype');
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Overcame Demo', sans-serif;
+}
+
         }
 
         th,
