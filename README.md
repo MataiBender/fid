@@ -51,7 +51,7 @@ Assigments from class will be here in the pursuit of learning HTML coding
 
 <h1>Other projects<h1>
 <p align="center">
-  <a href="https://mataibender.github.io/fid/JustCause4.html" target="_blank" style="
+  <a href="https:JustCause4.html" target="_blank" style="
     background-color: #D4AF37;
     color: white;
     padding: 10px 20px;
