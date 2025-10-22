@@ -49,6 +49,7 @@ Assigments from class will be here in the pursuit of learning HTML coding
 <button onclick="window.location.href='bistro/bistro-tapenade.html'">View Tapenade Recipe</button>
 <a class="redirect-button" href="LWD5e_materials/LWD5e_materials/ch07/Exercise%2007-03/responsivegallery-03/Blackstone_Bistro_Gallery.html">View Bistro Gallery</a>
 
+<h1>Other projects<h1>
 <p align="center">
   <a href="https://mataibender.github.io/fid/JustCause4.html" target="_blank" style="
     background-color: #0460d0;
