@@ -50,20 +50,9 @@ Assigments from class will be here in the pursuit of learning HTML coding
 <a class="redirect-button" href="LWD5e_materials/LWD5e_materials/ch07/Exercise%2007-03/responsivegallery-03/Blackstone_Bistro_Gallery.html">View Bistro Gallery</a>
 
 <h1>Other projects<h1>
-<p align="center">
-  <a href="https://mataibender.github.io/fid/JustCause4.html" target="_blank" style="
-    background-color: #0460d0;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;">
-    View Just Cause 4 Character Table
-  </a>
-</p>
+[🔗 View Just Cause 4 Character Table](https://mataibender.github.io/fid/JustCause4.html)
+
+
 
 
 
