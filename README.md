@@ -53,14 +53,6 @@ Assigments from class will be here in the pursuit of learning HTML coding
 <button onclick="window.location.href='JustCause4.html'">
   View Just Cause 4 Character Table
 </button>
-  </a>
-</p>
-
-
-
-
-
-
 
 </body>
 </html>
