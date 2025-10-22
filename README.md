@@ -54,6 +54,3 @@ Assigments from class will be here in the pursuit of learning HTML coding
   View Just Cause 4 Character Table
 </button>
 
-</body>
-</html>
-
