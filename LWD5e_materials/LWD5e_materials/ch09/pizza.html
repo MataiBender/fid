@@ -73,5 +73,21 @@ Your Information
 
   <p><input type="submit" value="Bring me a
 pizza!"><input type="reset"></p>
+<script>
+  document.querySelector("form").addEventListener("submit", function (event) {
+    event.preventDefault(); // Stop actual submission
+    const form = event.target;
+
+    if (form.checkValidity()) {
+      document.body.innerHTML = `
+        <h1>Thank You!</h1>
+        <p>Your pizza order has been received. We’ll deliver it within the hour!</p>
+      `;
+    } else {
+      form.reportValidity(); // Show browser validation messages
+    }
+  });
+</script>
+
 </body>
 </html>
