@@ -22,17 +22,17 @@ pizza.php" method="POST">
   <fieldset>
     <legend>Your Information</legend>
     <ul>
-      <li>Name: <input type="text" name="fullname">
+      <li>Name: <input type="text" name="fullname"></li>
+      <li>Address: <input type="text" name="address" size="40" required></li>
+      <li>Telephone Number: <input type="tel" name="phone" size="20" required></li>
+      <li>Email: <input type="email" name="email" size="30" required></li>
+      <li>Delivery instructions:<br>
+        <textarea name="instructions" rows="4" cols="60" maxlength="400" required></textarea>
       </li>
-    <li>Address: <input type="text" name="address" size="40" required></li>
-    <li>Telephone Number: <input type="tel" name="phone" size="20" required></li>
-    <li>Email: <input type="email" name="email" size="30" required></li>
-    <li>Delivery instructions:<br>
-      <textarea name="instructions" rows="4" cols="60" maxlength="400" required></textarea>
-    </li>
     </ul>
   </fieldset>
-</ul>
+</form>
+
 
   <h2>Design Your Dream Pizza:</h2>
   <p>Crust <em>(Choose one)</em>:</p>
