@@ -56,15 +56,19 @@ pizza.php" method="POST">
     <li><input type="checkbox" name="toppings[]" value="anchovies"> Anchovies</li>
   </ul>
 
-  <p>How many pizzas:</p>
-  <select name="pizzas" required>
-    <option>1</option>
-    <option>2</option>
-    <option>3</option>
-    <option>4</option>
-    <option>5</option>
-    <option>6</option>
-  </select>
+  <fieldset>
+    <legend>Pizza Quantity</legend>
+    <label for="pizzas">How many pizzas:</label>
+    <select name="pizzas" id="pizzas" required>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+    </select>
+  </fieldset>
+
 
   <p><input type="submit" value="Bring me a pizza!"> <input type="reset"></p>
 </form>
