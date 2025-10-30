@@ -22,12 +22,14 @@ pizza.php" method="POST">
   <fieldset>
     <legend>Your Information</legend>
     <ul>
-      <li>Name: <input type="text" name="fullname"></li>
-      <li>Address: <input type="text" name="address" size="40" required></li>
-      <li>Telephone Number: <input type="tel" name="phone" size="20" required></li>
-      <li>Email: <input type="email" name="email" size="30" required></li>
-      <li>Delivery instructions:<br>
-        <textarea name="instructions" rows="4" cols="60" maxlength="400" required></textarea>
+      <li><label for="form-name">Name:</label> <input type="text" name="fullname" id="form-name" required></li>
+      <li><label for="form-address">Address:</label> <input type="text" name="address" id="form-address" size="40"
+          required></li>
+      <li><label for="form-phone">Telephone Number:</label> <input type="tel" name="phone" id="form-phone" size="20"
+          required></li>
+      <li><label for="form-email">Email:</label> <input type="email" name="email" id="form-email" size="30" required></li>
+      <li><label for="form-instructions">Delivery instructions:</label><br>
+        <textarea name="instructions" id="form-instructions" rows="4" cols="60" maxlength="400" required></textarea>
       </li>
     </ul>
   </fieldset>
@@ -58,7 +60,6 @@ pizza.php" method="POST">
       <li><input type="checkbox" name="toppings[]" value="anchovies"> Anchovies</li>
     </ul>
   </fieldset>
-
 
   <fieldset>
     <legend>Pizza Quantity</legend>
