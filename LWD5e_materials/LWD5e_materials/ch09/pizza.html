@@ -35,16 +35,29 @@ pizza.php" method="POST">
   </fieldset>
 </form>
 
-  <fieldset>
-    <legend>Crust Selection</legend>
-    <p><em>(Choose one)</em></p>
-    <ul>
-      <li><input type="radio" name="crust" value="white" required> Classic white</li>
-      <li><input type="radio" name="crust" value="multigrain"> Multigrain</li>
-      <li><input type="radio" name="crust" value="cheese-stuffed"> Cheese-stuffed crust</li>
-      <li><input type="radio" name="crust" value="gluten-free"> Gluten-free</li>
-    </ul>
-  </fieldset>
+<fieldset>
+  <legend>Crust Selection</legend>
+  <p><em>(Choose one)</em></p>
+  <ul>
+    <li>
+      <input type="radio" name="crust" id="crust-white" value="white" required>
+      <label for="crust-white">Classic white</label>
+    </li>
+    <li>
+      <input type="radio" name="crust" id="crust-multigrain" value="multigrain">
+      <label for="crust-multigrain">Multigrain</label>
+    </li>
+    <li>
+      <input type="radio" name="crust" id="crust-cheese" value="cheese-stuffed">
+      <label for="crust-cheese">Cheese-stuffed crust</label>
+    </li>
+    <li>
+      <input type="radio" name="crust" id="crust-glutenfree" value="gluten-free">
+      <label for="crust-glutenfree">Gluten-free</label>
+    </li>
+  </ul>
+</fieldset>
+
 
 
   <fieldset>
