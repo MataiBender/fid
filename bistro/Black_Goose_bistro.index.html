@@ -53,6 +53,17 @@
 			main {
 				line-height: 1.5;
 			}
+			.order-button {
+				display: block;
+				margin: 0.5rem auto;
+				border: none;
+				cursor: pointer;
+				width: 220px;
+				max-width: 100%;
+				height: auto;
+			}
+			a.order-link { text-decoration: none; display: inline-block; }
+			a.order-link:focus { outline: 3px solid #92D4F4; outline-offset: 3px; }
 		</style>
 	</head>
 	<body>
@@ -96,8 +107,8 @@
 				<h2>Blackstone Bistro | Pizza-on-Demand</h2>
 				<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an
 					hour.</p>
-				<a href="../LWD5e_materials/LWD5e_materials/ch09/pizza.html">
-					<img src="../LWD5e_materials/LWD5e_materials/ch09/Bistro_order_button.gif" alt="Order Pizza">
+				<a class="order-link" href="../LWD5e_materials/LWD5e_materials/ch09/pizza.html" aria-label="Order Pizza">
+					<img class="order-button" src="../LWD5e_materials/LWD5e_materials/ch09/Bistro_order_button.gif" alt="Order Pizza">
 				</a>
 
 
