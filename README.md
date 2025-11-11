@@ -49,7 +49,8 @@ Assigments from class will be here in the pursuit of learning HTML coding
 <button onclick="window.location.href='bistro/bistro-tapenade.html'">View Tapenade Recipe</button>
 <a class="redirect-button" href="LWD5e_materials/LWD5e_materials/ch07/Exercise%2007-03/responsivegallery-03/Blackstone_Bistro_Gallery.html">View Bistro Gallery</a>
 
-<h1>Other projects<h1>
+<h1>Other Projects</h1>
+
 <p align="center">
   <a href="https://mataibender.github.io/fid/Table/JustCause4.html" target="_blank" style="
     background-color: #D4AF37;
@@ -62,7 +63,10 @@ Assigments from class will be here in the pursuit of learning HTML coding
     text-decoration: none;
     display: inline-block;">
     View Just Cause 4 Character Table
-    <h2>Chapter 12 Menu Exercises</h2>
+  </a>
+</p>
+
+<h2>Chapter 12 Menu Exercises</h2>
 <ul>
   <li><a href="LWD5e_materials/LWD5e_materials/ch12/menu-ex1.html">Menu Exercise 1</a></li>
   <li><a href="LWD5e_materials/LWD5e_materials/ch12/menu-ex2.html">Menu Exercise 2</a></li>
@@ -71,6 +75,7 @@ Assigments from class will be here in the pursuit of learning HTML coding
   <li><a href="LWD5e_materials/LWD5e_materials/ch12/menu-ex5.html">Menu Exercise 5</a></li>
   <li><a href="LWD5e_materials/LWD5e_materials/ch12/menu-ex6.html">Menu Exercise 6</a></li>
 </ul>
+
 
   </a>
 </p>
