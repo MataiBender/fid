@@ -62,17 +62,6 @@ Assigments from class will be here in the pursuit of learning HTML coding
     text-decoration: none;
     display: inline-block;">
     View Just Cause 4 Character Table
-
-<h2>Chapter 12 Menu Exercises</h2>
-<ul>
-  <li><a href="/LWD5e_materials/LWD5e_materials/ch12/menu-ex1.html">Menu Exercise 1</a></li>
-  <li><a href="/LWD5e_materials/LWD5e_materials/ch12/menu-ex2.html">Menu Exercise 2</a></li>
-  <li><a href="/LWD5e_materials/LWD5e_materials/ch12/menu-ex3.html">Menu Exercise 3</a></li>
-  <li><a href="/LWD5e_materials/LWD5e_materials/ch12/menu-ex4.html">Menu Exercise 4</a></li>
-  <li><a href="/LWD5e_materials/LWD5e_materials/ch12/menu-ex5.html">Menu Exercise 5</a></li>
-  <li><a href="/LWD5e_materials/LWD5e_materials/ch12/menu-ex6.html">Menu Exercise 6</a></li>
-</ul>
-
   </a>
 </p>
 
