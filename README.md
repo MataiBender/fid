@@ -63,14 +63,7 @@ Assigments from class will be here in the pursuit of learning HTML coding
     display: inline-block;">
     View Just Cause 4 Character Table
     <h2>Chapter 12 Menu Exercises</h2>
-<ul>
-  <li><a href="menu-ex1.html">Menu Exercise 1</a></li>
-  <li><a href="menu-ex2.html">Menu Exercise 2</a></li>
-  <li><a href="menu-ex3.html">Menu Exercise 3</a></li>
-  <li><a href="menu-ex4.html">Menu Exercise 4</a></li>
-  <li><a href="menu-ex5.html">Menu Exercise 5</a></li>
-  <li><a href="menu-ex6.html">Menu Exercise 6</a></li>
-</ul>
+
 
   </a>
 </p>
