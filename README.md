@@ -86,7 +86,6 @@ Assigments from class will be here in the pursuit of learning HTML coding
   <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S6.html">summermenu_S6.html</a></li>
   <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S7.html">summermenu_S7.html</a></li>
   <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S8.html">summermenu_S8.html</a></li>
-  <a href="https://mataibender.github.io/fid/LWD5e_materials/ch13/summermenu_S1.html">summermenu_S1.html</a>
 
 </ul>
 
