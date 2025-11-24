@@ -76,6 +76,18 @@ Assigments from class will be here in the pursuit of learning HTML coding
   <li><a href="LWD5e_materials/LWD5e_materials/ch12/menu-ex6.html">Menu Exercise 6</a></li>
 </ul>
 
+<h2>Summer Menu Files</h2>
+<ul>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S1.html">summermenu_S1.html</a></li>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S2.html">summermenu_S2.html</a></li>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S3.html">summermenu_S3.html</a></li>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S4.html">summermenu_S4.html</a></li>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S5.html">summermenu_S5.html</a></li>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S6.html">summermenu_S6.html</a></li>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S7.html">summermenu_S7.html</a></li>
+  <li><a href="LWD5e_materials/LWD5e_materials/ch13/summermenu_S8.html">summermenu_S8.html</a></li>
+
+</ul>
 
   </a>
 </p>
