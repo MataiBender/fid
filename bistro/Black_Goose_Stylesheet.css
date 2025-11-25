@@ -231,4 +231,34 @@ a.order-link:focus {
   background-color: #d1633c;
 }
 
+/* --- Tapenade page styles --- */
+.tapenade {
+  margin: 2em 6em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #faf2e4;
+  color: #333;
+}
+
+.tapenade h1, .tapenade h2 {
+  color: #399;
+}
+
+.tapenade h1 {
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 2px solid #57b1dc;
+  padding-bottom: 0.5em;
+}
+
+.tapenade h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+.tapenade small {
+  color: #999;
+  font-style: italic;
+}
+
 
