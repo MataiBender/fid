@@ -1,25 +1,31 @@
+/* Global styles shared across all pages */
 body {
   background-color: #faf2e4;
   margin: 0 10%;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
+
 h1 {
   text-align: center;
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Playfair Display', serif;
   font-weight: normal;
   text-transform: uppercase;
   border-bottom: 1px solid #57b1dc;
   margin-top: 30px;
 }
+
 .center-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 h2 {
   color: #d1633c;
   font-size: 1cm;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -28,14 +34,17 @@ nav ul {
   gap: 1rem;
   justify-content: center;
 }
+
 nav a {
   text-decoration: none;
   color: inherit;
-  transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
+
 nav a:hover {
-  color: #57b1dc; 
+  color: #57b1dc;
 }
+
 footer img {
   border-top: 1px solid #57b1dc;
   text-align: center;
@@ -45,9 +54,11 @@ footer img {
   margin-left: .5em;
   margin-right: .5em;
 }
+
 main {
   line-height: 1.5;
 }
+
 .order-button {
   display: block;
   margin: 0.5rem auto;
@@ -62,14 +73,66 @@ main {
   padding: 0.5em;
   transition: background-color 0.3s ease;
 }
+
 .order-button:hover {
-  background-color: #d1633c; 
+  background-color: #d1633c;
 }
+
 a.order-link {
   text-decoration: none;
   display: inline-block;
 }
+
 a.order-link:focus {
   outline: 3px solid #92D4F4;
   outline-offset: 3px;
+}
+
+/* --- Page-specific variations --- */
+
+/* News page tweaks */
+.news-page body {
+  background-color: #fdfaf6;
+  margin: 0 12%;
+}
+
+.news-page h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  border-bottom: 2px solid #d1633c;
+  margin-top: 25px;
+  padding-bottom: 0.5em;
+}
+
+.news-page h2 {
+  color: #57b1dc;
+  font-size: 1.2em;
+  margin-top: 1.5em;
+}
+
+.news-page h3 {
+  color: #d1633c;
+  margin-top: 1em;
+}
+
+.news-page ul {
+  line-height: 1.6;
+  margin-left: 1.5em;
+}
+
+.news-page span {
+  color: #57b1dc;
+  font-weight: bold;
+}
+
+.news-page footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  background-color: #faf2e4;
+}
+
+.news-page footer p {
+  margin: 0.5em 0;
 }
