@@ -291,3 +291,62 @@ a.order-link:focus {
   font-style: italic;
 }
 
+/* --- Linguine with Clam Sauce page styles --- */
+.linguine {
+  margin: 2em 6em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #faf2e4;
+  color: #333;
+}
+
+.linguine h1, .linguine h2 {
+  color: #399;
+}
+
+.linguine h1 {
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 2px solid #57b1dc;
+  padding-bottom: 0.5em;
+}
+
+.linguine h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+.linguine small {
+  color: #999;
+  font-style: italic;
+}
+/* --- Couscous with Peas and Mint page styles --- */
+.couscous {
+  margin: 2em 6em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #faf2e4;
+  color: #333;
+}
+
+.couscous h1, .couscous h2 {
+  color: #399;
+}
+
+.couscous h1 {
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 2px solid #57b1dc;
+  padding-bottom: 0.5em;
+}
+
+.couscous h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+.couscous small {
+  color: #999;
+  font-style: italic;
+}
+
