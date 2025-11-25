@@ -136,3 +136,61 @@ a.order-link:focus {
 .news-page footer p {
   margin: 0.5em 0;
 }
+
+/* --- Jen's Kitchen page styles --- */
+.jenskitchen {
+  margin: 2em 8%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #faf2e4;
+  color: #333;
+}
+
+.jenskitchen h1 {
+  color: #399;
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 2px solid #57b1dc;
+  padding-bottom: 0.5em;
+}
+
+.jenskitchen h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  color: #d1633c;
+  margin-top: 1.5em;
+}
+
+.jenskitchen p {
+  line-height: 1.6;
+}
+
+.jenskitchen small {
+  color: #999;
+  font-style: italic;
+}
+
+.jenskitchen nav {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.jenskitchen nav a {
+  text-decoration: none;
+  color: #399;
+  margin: 0 0.5em;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.jenskitchen nav a:hover {
+  color: #d1633c;
+}
+
+.jenskitchen footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  background-color: #fdfaf6;
+}
+
