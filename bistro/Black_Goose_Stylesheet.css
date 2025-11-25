@@ -143,14 +143,19 @@ a.order-link:focus {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #faf2e4;
   color: #333;
+  line-height: 1.6;
 }
 
+/* Headings */
 .jenskitchen h1 {
   color: #399;
   font-size: 2em;
   text-align: center;
+  font-family: 'Playfair Display', serif; /* Google Web Font */
+  text-transform: uppercase;
   border-bottom: 2px solid #57b1dc;
   padding-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 .jenskitchen h2 {
@@ -160,8 +165,9 @@ a.order-link:focus {
   margin-top: 1.5em;
 }
 
+/* Paragraphs and inline text */
 .jenskitchen p {
-  line-height: 1.6;
+  margin: 1em 0;
 }
 
 .jenskitchen small {
@@ -169,6 +175,12 @@ a.order-link:focus {
   font-style: italic;
 }
 
+.jenskitchen em {
+  color: #d1633c;
+  font-weight: bold;
+}
+
+/* Navigation */
 .jenskitchen nav {
   text-align: center;
   margin: 1em 0;
@@ -179,13 +191,15 @@ a.order-link:focus {
   color: #399;
   margin: 0 0.5em;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .jenskitchen nav a:hover {
   color: #d1633c;
+  transform: scale(1.1); /* pseudo-class enhancement */
 }
 
+/* Footer */
 .jenskitchen footer {
   border-top: 1px solid #57b1dc;
   text-align: center;
@@ -193,4 +207,28 @@ a.order-link:focus {
   font-size: 0.9em;
   background-color: #fdfaf6;
 }
+
+.jenskitchen footer p {
+  margin: 0.5em 0;
+  font-family: 'Roboto', sans-serif; /* Google Web Font */
+  color: #555;
+}
+
+/* Buttons (optional for recipes or links) */
+.jenskitchen .recipe-button {
+  display: inline-block;
+  background-color: #57b1dc;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 1em auto;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.jenskitchen .recipe-button:hover {
+  background-color: #d1633c;
+}
+
 
