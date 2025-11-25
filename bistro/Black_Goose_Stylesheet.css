@@ -138,215 +138,232 @@ a.order-link:focus {
 }
 
 /* --- Jen's Kitchen page styles --- */
-.jenskitchen {
-  margin: 2em 8%;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #faf2e4;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Headings */
 .jenskitchen h1 {
-  color: #399;
+  color: #fff;
   font-size: 2em;
   text-align: center;
-  font-family: 'Playfair Display', serif; /* Google Web Font */
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
-  border-bottom: 2px solid #57b1dc;
-  padding-bottom: 0.5em;
-  margin-top: 1em;
+  background-color: #d1633c; /* orange box */
+  padding: 0.75em;
+  border-radius: 8px;
+  margin: 1em auto;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .jenskitchen h2 {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.2em;
-  color: #d1633c;
+  color: #fff;
+  background-color: #d1633c; /* orange box */
+  padding: 0.5em;
+  border-radius: 6px;
   margin-top: 1.5em;
+  width: fit-content;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
 
-/* Paragraphs and inline text */
-.jenskitchen p {
-  margin: 1em 0;
-}
-
-.jenskitchen small {
-  color: #999;
-  font-style: italic;
-}
-
-.jenskitchen em {
-  color: #d1633c;
-  font-weight: bold;
-}
-
-/* Navigation */
-.jenskitchen nav {
-  text-align: center;
-  margin: 1em 0;
-}
-
+/* Navigation links with orange hover boxes */
 .jenskitchen nav a {
   text-decoration: none;
   color: #399;
   margin: 0 0.5em;
   font-weight: bold;
-  transition: color 0.3s ease, transform 0.2s ease;
+  padding: 0.4em 0.8em;
+  border: 2px solid #399;
+  border-radius: 6px;
+  transition: all 0.3s ease;
 }
 
 .jenskitchen nav a:hover {
-  color: #d1633c;
-  transform: scale(1.1); /* pseudo-class enhancement */
+  background-color: #d1633c;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-/* Footer */
+/* Recipe buttons with orange flair */
+.jenskitchen .recipe-button {
+  display: inline-block;
+  background-color: #57b1dc;
+  color: white;
+  padding: 0.6em 1.2em;
+  margin: 1em auto;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.jenskitchen .recipe-button:hover {
+  background-color: #d1633c;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer with orange accent line */
 .jenskitchen footer {
-  border-top: 1px solid #57b1dc;
+  border-top: 4px solid #d1633c;
   text-align: center;
   padding: 1em;
   font-size: 0.9em;
   background-color: #fdfaf6;
 }
 
-.jenskitchen footer p {
-  margin: 0.5em 0;
-  font-family: 'Roboto', sans-serif; /* Google Web Font */
-  color: #555;
-}
-
-/* Buttons (optional for recipes or links) */
-.jenskitchen .recipe-button {
-  display: inline-block;
-  background-color: #57b1dc;
-  color: white;
-  padding: 0.5em 1em;
-  margin: 1em auto;
-  border: none;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  transition: background-color 0.3s ease;
-}
-
-.jenskitchen .recipe-button:hover {
-  background-color: #d1633c;
-}
 
 /* --- Tapenade page styles --- */
-.tapenade {
-  margin: 2em 6em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #faf2e4;
-  color: #333;
-}
-
-.tapenade h1, .tapenade h2 {
-  color: #399;
-}
-
 .tapenade h1 {
+  color: #fff;
   font-size: 1.5em;
   text-align: center;
-  border-bottom: 2px solid #57b1dc;
-  padding-bottom: 0.5em;
+  background-color: #d1633c;
+  padding: 0.6em;
+  border-radius: 6px;
+  margin: 1em auto;
+  width: 70%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
 .tapenade h2 {
+  color: #fff;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1em;
+  background-color: #d1633c;
+  padding: 0.4em 0.8em;
+  border-radius: 5px;
   margin-top: 1.5em;
+  width: fit-content;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.tapenade small {
-  color: #999;
-  font-style: italic;
+.tapenade a {
+  color: #399;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.tapenade a:hover {
+  background-color: #d1633c;
+  color: #fff;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
 }
 
 /* --- Garlic Salmon page styles --- */
-.salmon {
-  margin: 2em 6em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #faf2e4;
-  color: #333;
-}
-
-.salmon h1, .salmon h2 {
-  color: #399;
-}
-
 .salmon h1 {
+  color: #fff;
   font-size: 1.5em;
   text-align: center;
-  border-bottom: 2px solid #57b1dc;
-  padding-bottom: 0.5em;
+  background-color: #d1633c;
+  padding: 0.6em;
+  border-radius: 6px;
+  margin: 1em auto;
+  width: 70%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
 .salmon h2 {
+  color: #fff;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1em;
+  background-color: #d1633c;
+  padding: 0.4em 0.8em;
+  border-radius: 5px;
   margin-top: 1.5em;
+  width: fit-content;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.salmon small {
-  color: #999;
-  font-style: italic;
-}
-
-/* --- Linguine with Clam Sauce page styles --- */
-.linguine {
-  margin: 2em 6em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #faf2e4;
-  color: #333;
-}
-
-.linguine h1, .linguine h2 {
+.salmon a {
   color: #399;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
+.salmon a:hover {
+  background-color: #d1633c;
+  color: #fff;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
 .linguine h1 {
+  color: #fff;
   font-size: 1.5em;
   text-align: center;
-  border-bottom: 2px solid #57b1dc;
-  padding-bottom: 0.5em;
+  background-color: #d1633c;
+  padding: 0.6em;
+  border-radius: 6px;
+  margin: 1em auto;
+  width: 70%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
 .linguine h2 {
+  color: #fff;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1em;
+  background-color: #d1633c;
+  padding: 0.4em 0.8em;
+  border-radius: 5px;
   margin-top: 1.5em;
+  width: fit-content;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.linguine small {
-  color: #999;
-  font-style: italic;
-}
-/* --- Couscous with Peas and Mint page styles --- */
-.couscous {
-  margin: 2em 6em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #faf2e4;
-  color: #333;
-}
-
-.couscous h1, .couscous h2 {
+.linguine a {
   color: #399;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
+.linguine a:hover {
+  background-color: #d1633c;
+  color: #fff;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* --- Couscous with Peas and Mint page styles --- */
 .couscous h1 {
+  color: #fff;
   font-size: 1.5em;
   text-align: center;
-  border-bottom: 2px solid #57b1dc;
-  padding-bottom: 0.5em;
+  background-color: #d1633c;
+  padding: 0.6em;
+  border-radius: 6px;
+  margin: 1em auto;
+  width: 70%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
 .couscous h2 {
+  color: #fff;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1em;
+  background-color: #d1633c;
+  padding: 0.4em 0.8em;
+  border-radius: 5px;
   margin-top: 1.5em;
+  width: fit-content;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.couscous small {
-  color: #999;
-  font-style: italic;
+.couscous a {
+  color: #399;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
+
+.couscous a:hover {
+  background-color: #d1633c;
+  color: #fff;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
 
