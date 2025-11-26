@@ -69,3 +69,36 @@ button {
 button:hover {
   background-color: #b8860b;
 }
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 thumbnails per row */
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.gallery img.thumbnail {
+  width: 100%;          /* fills grid cell */
+  height: 180px;        /* consistent height */
+  object-fit: cover;    /* crops proportionally */
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img.thumbnail:hover {
+  transform: scale(1.05); /* subtle zoom */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr; /* stack on phones */
+  }
+}
