@@ -1,0 +1,71 @@
+/* Base */
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 2em;
+  line-height: 1.6;
+  background-color: #ffffff; /* White */
+  color: #333;
+}
+
+/* Headings */
+h1, h2 {
+  color: #D4AF37; /* Gold */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1:hover, h2:hover {
+  color: #b8860b; /* Darker gold on hover */
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #003366;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.5em;
+  padding-left: 1em;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Utility */
+.placeholder {
+  font-style: italic;
+  color: gray;
+}
+
+.highlight {
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-left: 4px solid #D4AF37;
+}
+
+/* Buttons */
+button {
+  font-family: 'Raleway', sans-serif;
+  background-color: #D4AF37;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #b8860b;
+}
